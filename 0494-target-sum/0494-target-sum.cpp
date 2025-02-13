@@ -1,25 +1,24 @@
 class Solution {
 public:
-    int totalSum;
 
-    int solve(int i, int curSum, int target, vector<int>& nums, vector<vector<int>> &dp){
+    int solve(int i, int target, vector<int>& nums, unordered_map<string, int> &mp){
         if(i >= nums.size()) {
-            return (curSum == target) ? 1 : 0;
+            return (target == 0) ? 1 : 0;
         }
 
-        if(dp[i][curSum + totalSum] != -1)
-            return dp[i][curSum + totalSum];
+        string key = to_string(i) + "_" + to_string(target);
 
-        int add = solve(i+1, curSum + nums[i], target, nums, dp);
-        int sub = solve(i+1, curSum - nums[i], target, nums, dp);
+        if(mp.count(key))
+            return mp[key];
 
-        return dp[i][curSum + totalSum] = add + sub;
+        int add = solve(i+1, target + nums[i], nums, mp);
+        int sub = solve(i+1, target - nums[i], nums, mp);
+
+        return mp[key] = add + sub;
     }
 
     int findTargetSumWays(vector<int>& nums, int target) {
-        int n = nums.size();
-        totalSum = accumulate(nums.begin(), nums.end(), 0);
-        vector<vector<int>> dp(n+1, vector<int>(2*totalSum+1, -1));
-        return solve(0, 0, target, nums, dp);    
+        unordered_map<string, int> mp;
+        return solve(0, target, nums, mp);    
     }
 };
