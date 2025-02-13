@@ -5,10 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0322-coin-change) |
+| [0518-coin-change-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0322-coin-change) |
+| [0518-coin-change-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
