@@ -11,8 +11,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
+| [1250-longest-common-subsequence](https://github.com/ankux/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0322-coin-change) |
+## String
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/ankux/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
