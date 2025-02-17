@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0072-edit-distance](https://github.com/ankux/LeetCode-Solutions/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/ankux/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0322-coin-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0516-longest-palindromic-subsequence](https://github.com/ankux/LeetCode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0072-edit-distance](https://github.com/ankux/LeetCode-Solutions/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/ankux/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/ankux/LeetCode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ankux/LeetCode-Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [1170-shortest-common-supersequence](https://github.com/ankux/LeetCode-Solutions/tree/master/1170-shortest-common-supersequence) |
