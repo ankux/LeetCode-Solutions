@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/ankux/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ankux/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ankux/LeetCode-Solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -223,5 +224,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/ankux/LeetCode-Solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
