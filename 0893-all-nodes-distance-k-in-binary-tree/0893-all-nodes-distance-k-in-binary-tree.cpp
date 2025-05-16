@@ -1,70 +1,49 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
-    unordered_map<TreeNode*, TreeNode*> parentOf;
-    vector<int> ans;
+    unordered_map<TreeNode*, TreeNode*> parent;
 
-    void inorder(TreeNode* root){
-        if(!root) return;
-        
-        if(root->left)
-            parentOf[root->left] = root;
-        inorder(root->left);
+    void preorder(TreeNode* cur, TreeNode* par){
+        if(!cur) return;
 
-        if(root->right)
-            parentOf[root->right] = root;
-        inorder(root->right);
+        parent[cur] = par;
+        preorder(cur->left, cur);
+        preorder(cur->right, cur);
     }
 
-    void solve(TreeNode* target, int k){
-        queue<TreeNode*> Q;
-        Q.push(target);
+    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        preorder(root, NULL);
+        
+        queue<TreeNode*> q;
+        q.push(target);
+        unordered_set<TreeNode*> visited;
 
-        unordered_set<int> visited;
-        visited.insert(target->val);
+        while(!q.empty()) {
+            int size = q.size();
+            if(k==0) break;
 
-        while(!Q.empty()){
-            int size = Q.size();
-            if(k == 0) break;
             for(int i=0; i<size; i++){
-                TreeNode* curNode = Q.front();
-                Q.pop();
+                TreeNode* cur = q.front();
+                q.pop();
 
-                if(curNode->left && !visited.count(curNode->left->val)){
-                    Q.push(curNode->left);
-                    visited.insert(curNode->left->val);
-                }
-                
-                if(curNode->right && !visited.count(curNode->right->val)){
-                    Q.push(curNode->right);
-                    visited.insert(curNode->right->val);
-                }
-                
-                if(parentOf.count(curNode) && !visited.count(parentOf[curNode]->val)){
-                    Q.push(parentOf[curNode]);
-                    visited.insert(parentOf[curNode]->val);
-                }
+                visited.insert(cur);
+
+                if(cur->left  && !visited.count(cur->left))
+                    q.push(cur->left);
+                if(cur->right && !visited.count(cur->right))
+                    q.push(cur->right);
+                if(parent[cur] && !visited.count(parent[cur]))
+                    q.push(parent[cur]);
             }
             k--;
         }
 
-        while(!Q.empty()){
-            ans.push_back(Q.front()->val);
-            Q.pop();
+        vector<int> ans;
+        while(!q.empty()){
+            TreeNode* cur = q.front();
+            q.pop();
+            ans.push_back(cur->val);
         }
-    }
 
-    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        inorder(root);
-        solve(target, k);
         return ans;
     }
 };
