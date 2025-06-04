@@ -4,11 +4,11 @@ public:
         int n = s.size();
         int maxLen = 0;
         for(int i=0; i<n; i++) {
+            vector<int> visited(256, 0);
             int len = 0;
-            string str = "";
             for(int j=i; j<n; j++){
-                if(str.find(s[j]) == string::npos){
-                    str.push_back(s[j]);
+                if(visited[s[j]] == 0){
+                    visited[s[j]] = 1;
                     len++;
                 } else {
                     break;
