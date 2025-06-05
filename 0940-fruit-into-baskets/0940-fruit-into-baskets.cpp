@@ -9,16 +9,17 @@ public:
             mp[fruits[r]]++;
 
             if(mp.size() > 2) {
-                while(mp.size() > 2) {
-                    mp[fruits[l]]--;
-                    if(mp[fruits[l]] == 0) {
-                        mp.erase(fruits[l]);
-                    }
-                    l++;
-                } 
+                mp[fruits[l]]--;
+                if(mp[fruits[l]] == 0) {
+                    mp.erase(fruits[l]);
+                }
+                l++;
             }
 
-            maxi = max(maxi, r-l+1);
+            if(mp.size() <= 2) {
+                maxi = max(maxi, r-l+1);
+            }
+            
             r++;
         }
 
