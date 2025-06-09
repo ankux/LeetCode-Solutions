@@ -1,48 +1,31 @@
 class Solution {
 public:
-    vector<int> getNSL(vector<int>& arr) {
-        int n = arr.size();
-        vector<int> result(n);
-        stack<int> st;
-
-        for(int i=0; i<n; i++) {
-            while(!st.empty() && arr[st.top()] >= arr[i]) {
-                st.pop();
-            }
-
-            result[i] = st.empty() ? -1 : st.top();
-            st.push(i);
-        }
-
-        return result;
-    }
-
-    vector<int> getNSR(vector<int>& arr) {
-        int n = arr.size();
-        vector<int> result(n);
-        stack<int> st;
-
-        for(int i=n-1; i>=0; i--) {
-            while(!st.empty() && arr[st.top()] > arr[i]) {
-                st.pop();
-            }
-
-            result[i] = st.empty() ? n : st.top();
-            st.push(i);
-        }
-
-        return result;
-    }
-
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
-        vector<int> NSL = getNSL(heights);
-        vector<int> NSR = getNSR(heights);
-
+        stack<int> st;
         int maxi = 0;
 
         for(int i=0; i<n; i++) {
-            int area = heights[i] * (NSR[i] - NSL[i] - 1);
+            while(!st.empty() && heights[st.top()] > heights[i]) {
+                int idx = st.top();
+                st.pop();
+
+                int NSE = i;
+                int PSE = st.empty() ? -1 : st.top();
+
+                int area = heights[idx] * (NSE - PSE - 1);
+                maxi = max(maxi, area); 
+            }
+            st.push(i);
+        }
+
+        while(!st.empty()) {
+            int idx = st.top();
+            st.pop();
+            int NSE = n;
+            int PSE = st.empty() ? -1 : st.top();
+
+            int area = heights[idx] * (NSE - PSE - 1);
             maxi = max(maxi, area);
         }
 
