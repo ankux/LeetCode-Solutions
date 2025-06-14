@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ankux/LeetCode-Solutions/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ankux/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ankux/LeetCode-Solutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0146-lru-cache](https://github.com/ankux/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/ankux/LeetCode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ankux/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0740-delete-and-earn](https://github.com/ankux/LeetCode-Solutions/tree/master/0740-delete-and-earn) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ankux/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ankux/LeetCode-Solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ankux/LeetCode-Solutions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ankux/LeetCode-Solutions/tree/master/0232-implement-queue-using-stacks) |
@@ -355,4 +357,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/ankux/LeetCode-Solutions/tree/master/0176-second-highest-salary) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ankux/LeetCode-Solutions/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ankux/LeetCode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
