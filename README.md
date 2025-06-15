@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/ankux/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/ankux/LeetCode-Solutions/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/ankux/LeetCode-Solutions/tree/master/0740-delete-and-earn) |
+| [0890-lemonade-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/ankux/LeetCode-Solutions/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankux/LeetCode-Solutions/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/0966-binary-subarrays-with-sum) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0402-remove-k-digits](https://github.com/ankux/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ankux/LeetCode-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0890-lemonade-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 ## Binary Search
 |  |
 | ------- |
