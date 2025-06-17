@@ -1,64 +1,81 @@
 class LRUCache {
 public:
-    list<int> dll;
-    // map<key, pair<address_of_the_node, value_of_key>>
-    map<int, pair<list<int>::iterator, int>> mp;
-    int n;
+    class Node {
+        public:
+            int key, val;
+            Node* next;
+            Node* prev;
+
+            Node(int k, int v) {
+                key = k;
+                val = v;
+                next = prev = NULL;
+            }
+    };
+
+    Node* head = new Node(-1, -1);
+    Node* tail = new Node(-1, -1);
+
+    unordered_map<int, Node*> mp;
+    int limit;
 
     LRUCache(int capacity) {
-        n = capacity;
+        limit = capacity;
+        head->next = tail;
+        tail->prev = head;
+    }
+
+    void addNode(Node* newNode) {
+        Node* oldNode = head->next;
+
+        head->next = newNode;
+        oldNode->prev = newNode;
+
+        newNode->next = oldNode;
+        newNode->prev = head;
+    }
+
+    void deleteNode(Node* oldNode) {
+        Node* oldNext = oldNode->next;
+        Node* oldPrev = oldNode->prev;
+
+        oldPrev->next = oldNext;
+        oldNext->prev = oldPrev;
     }
     
-    void makeMRU(int key) {
-        // firstly, delete the key from the DLL
-        dll.erase(mp[key].first);
-
-        // secondly, push the key to the front of the DLL
-        // since, we are keeping MRU elements at the front
-        dll.push_front(key);
-
-        // lastly, update the address of this key in the map,
-        // as the address is been updated for this key
-        mp[key].first = dll.begin();        
-    }
-
     int get(int key) {
-        // if the key is not present in the map, return -1
+        // if key does not exists
         if(mp.find(key) == mp.end()) return -1;
 
-        // if the key is present,
-        // first, make it Most Recently Used
-        makeMRU(key);
+        Node* ansNode = mp[key];
+        int ans = ansNode->val;
 
-        // then, return the corresponding value of the key from the map
-        return mp[key].second;
+        mp.erase(ansNode->key);
+        deleteNode(ansNode);
+
+        addNode(ansNode);
+        mp[key] = ansNode;
+
+        return ans;
     }
     
     void put(int key, int value) {
-        // if the key is present then, update the value and,
-        // make it MRU
+        // if key exist already in the map
         if(mp.find(key) != mp.end()) {
-            mp[key].second = value;
-            makeMRU(key);
-            return;
+            Node* oldNode = mp[key];
+            deleteNode(oldNode);
+            mp.erase(key);
         }
 
-        if(n == mp.size()) {
-            // if the cache is full, we will remove the last (or LRU) key node
-            // from both map and DLL, since it is least recently used, 
-            // dll.back() => gives key of the last node 
-            mp.erase(dll.back());
-
-            // removing the last (or LRU) node from the DLL
-            dll.pop_back();
+        // if limit/capacity is reached, delete LRU (the last node)
+        if(mp.size() == limit) {
+            mp.erase(tail->prev->key);
+            deleteNode(tail->prev);
         }
 
-        // we will then push the new key into the DLL
-        dll.push_front(key);
-
-        // we will also update the map with new key -> <addr, value>
-        // dll.begin() => gives the address of the first node
-        mp[key] = {dll.begin(), value};
+        Node* newNode = new Node(key, value);
+        addNode(newNode);
+        mp[key] = newNode;
     }
 };
 
