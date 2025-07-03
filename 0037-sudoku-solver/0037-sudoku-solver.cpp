@@ -1,25 +1,19 @@
 class Solution {
 public:
-    bool isValid(int row, int col, char ch, vector<vector<char>>& board) {
-
-        // checking for same row and col
-        for(int i=0; i<9; i++) {
-            if(board[i][col] == ch || board[row][i] == ch) {
-                return false;
-            }
+   bool isValid(int row, int col, char ch, vector<vector<char>>& board) {
+        for (int i = 0; i < 9; i++) {
+            // Check row
+            if (board[row][i] == ch) return false;
+            
+            // Check column
+            if (board[i][col] == ch) return false;
+            
+            // Check 3x3 subgrid
+            int subgridRow = 3 * (row / 3) + i / 3; // Calculate row in subgrid
+            int subgridCol = 3 * (col / 3) + i % 3;  // Calculate column in subgrid
+            if (board[subgridRow][subgridCol] == ch) return false;
         }
-
-        // checking for 3x3 grid
-        int startRow = (row/3) * 3;
-        int startCol = (col/3) * 3;
-        for(int i=startRow; i<startRow+3; i++) {
-            for(int j=startCol; j<startCol+3; j++) {
-                if(board[i][j] == ch) {
-                    return false;
-                }
-            }
-        }
-
+        
         return true;
     }
 
