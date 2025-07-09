@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2227-sum-of-subarray-ranges](https://github.com/ankux/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ankux/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ankux/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/ankux/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ankux/LeetCode-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0890-lemonade-change) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ankux/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/ankux/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/ankux/LeetCode-Solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ankux/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ankux/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Prefix Sum
 |  |
 | ------- |
