@@ -242,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/ankux/LeetCode-Solutions/tree/master/2384-root-equals-sum-of-children) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/ankux/LeetCode-Solutions/tree/master/2384-root-equals-sum-of-children) |
+| [2416-evaluate-boolean-binary-tree](https://github.com/ankux/LeetCode-Solutions/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
