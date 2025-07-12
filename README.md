@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/ankux/LeetCode-Solutions/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ankux/LeetCode-Solutions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/ankux/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2227-sum-of-subarray-ranges](https://github.com/ankux/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ankux/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ankux/LeetCode-Solutions/tree/master/0062-unique-paths) |
 | [0368-largest-divisible-subset](https://github.com/ankux/LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ankux/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Sorting
 |  |
 | ------- |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/ankux/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/ankux/LeetCode-Solutions/tree/master/0222-count-complete-tree-nodes) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ankux/LeetCode-Solutions/tree/master/0062-unique-paths) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Backtracking
 |  |
 | ------- |
@@ -338,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ankux/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ankux/LeetCode-Solutions/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/ankux/LeetCode-Solutions/tree/master/0131-palindrome-partitioning) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -431,4 +436,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/ankux/LeetCode-Solutions/tree/master/0139-word-break) |
+## Enumeration
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
