@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/ankux/LeetCode-Solutions/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2227-sum-of-subarray-ranges](https://github.com/ankux/LeetCode-Solutions/tree/master/2227-sum-of-subarray-ranges) |
+| [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/ankux/LeetCode-Solutions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/ankux/LeetCode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ankux/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Dynamic Programming
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/ankux/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ankux/LeetCode-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/ankux/LeetCode-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/ankux/LeetCode-Solutions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 ## Breadth-First Search
 |  |
 | ------- |
