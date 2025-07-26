@@ -437,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/ankux/LeetCode-Solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0146-lru-cache](https://github.com/ankux/LeetCode-Solutions/tree/master/0146-lru-cache) |
 ## Doubly-Linked List
 |  |
