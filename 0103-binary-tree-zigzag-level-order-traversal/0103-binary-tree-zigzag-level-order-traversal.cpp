@@ -1,50 +1,45 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        // Edge case: If the tree is empty, return an empty vector
-        if (!root)
-            return {};
+        if(!root) return {};
 
-        // Initialize the result vector to store levels
         vector<vector<int>> ans;
-
-        // Use a queue for BFS traversal
         queue<TreeNode*> q;
         q.push(root);
-
-        // Flag to track the direction (left-to-right or right-to-left)
+        
         bool leftToRight = true;
 
-        while (!q.empty()) {
-            // Get the number of nodes at the current level
+        while(!q.empty()) {
             int size = q.size();
+            vector<int> level(size);
 
-            // Temporary vector to store nodes of the current level
-            // Pre-allocate space for efficiency
-            vector<int> temp(size);
-
-            // Process all nodes at the current level
-            for (int i = 0; i < size; i++) {
-                TreeNode* cur = q.front();
+            for(int i=0; i<size; i++) {
+                TreeNode* curr = q.front();
                 q.pop();
 
-                // Calculate the index where the current node's value should be
-                // stored If leftToRight is true, use i (left-to-right order) If
-                // false, use (size - 1 - i) (right-to-left order)
-                int idx = leftToRight ? i : (size - 1 - i);
-                temp[idx] = cur->val;
+                if(leftToRight) {
+                    level[i] = curr->val;
+                }
+                else {
+                    level[size-i-1] = curr->val;
+                }
 
-                // Add left and right children to the queue for the next level
-                if (cur->left)
-                    q.push(cur->left);
-                if (cur->right)
-                    q.push(cur->right);
+                if(curr->left) q.push(curr->left);
+                if(curr->right) q.push(curr->right);
             }
 
-            // Add the current level's nodes to the result
-            ans.push_back(temp);
-
-            // Toggle the direction for the next level
+            ans.push_back(level);
             leftToRight = !leftToRight;
         }
 
