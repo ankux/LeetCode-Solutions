@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/ankux/LeetCode-Solutions/tree/master/0402-remove-k-digits) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ankux/LeetCode-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/ankux/LeetCode-Solutions/tree/master/0890-lemonade-change) |
+| [1448-maximum-69-number](https://github.com/ankux/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ankux/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Binary Search
 |  |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ankux/LeetCode-Solutions/tree/master/0062-unique-paths) |
 | [0368-largest-divisible-subset](https://github.com/ankux/LeetCode-Solutions/tree/master/0368-largest-divisible-subset) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ankux/LeetCode-Solutions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1448-maximum-69-number](https://github.com/ankux/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ankux/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankux/LeetCode-Solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Sorting
